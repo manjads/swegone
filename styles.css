@@ -1,0 +1,76 @@
+body {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .app {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .header {
+   position: sticky;
+   top: 0;
+ }
+ .footer{
+   position: sticky;
+   bottom: 0;
+ }
+ 
+ .main {
+   flex: 1;
+ }
+.container-fluid {
+    min-height: 90vh;
+    max-height: 100vh;
+ }
+ 
+ .bg-color-green {
+    background-color: #6e00a1;
+    color: rgb(255, 230, 0);
+    text-align: center;
+ }
+ .bg-color-gray {
+    background-color: rgb(231, 231, 231);
+    min-height: 84vh;
+    overflow-y: scroll;
+ }
+ 
+ .message {
+    padding: 3px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 70%;
+ }
+ 
+ .message-header {
+    font-size: small;
+    text-align: left;
+ }
+ 
+ .my-message {
+    margin-left: auto;
+    background-color: #d67dff;
+ }
+ .others-message {
+    background-color: rgb(255, 236, 68);
+    margin-right: auto;
+ }
+ .send-message {
+    min-height: 5vh;
+ }
+ 
+ .max-height-90 {
+    max-height: 90vh;
+    display: flex;
+ }
+ 
+ .d-flex {
+    display: flex;
+    
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 10px;
+ }

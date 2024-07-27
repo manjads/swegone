@@ -1,0 +1,111 @@
+@font-face {
+   font-family: mainFont;
+   src: url(starrail.ttf);
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: mainFont;
+ }
+
+.colorr {
+   background-color: red;
+}
+.blur{
+   filter: blur(10px);
+   -webkit-filter: blur(10px);
+}
+ 
+ .app {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+ }
+ .wrapper {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   width: 100%;
+   overflow-y: auto;
+ }
+ 
+ .header {
+   position: sticky;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   
+ }
+ .footer{
+   position: sticky;
+   position: fixed;
+   width: 100%;
+bottom: 0;
+display: flex;
+
+min-height: 5vh;
+ }
+ .main_center {
+   margin: 30px 0;
+ }
+ .main {
+   flex-grow: 1;
+  overflow: auto;
+  padding-top:70px;
+  overflow-y: scroll;
+     width:4000px;
+ }
+.container-fluid {
+    min-height: 90vh;
+    max-height: 100vh;
+ }
+ 
+ .bg-color-green {
+    background-color: #6e00a1;
+    color: rgb(255, 230, 0);
+    text-align: center;
+ }
+ .bg-color-gray {
+    background-color: rgb(231, 231, 231);
+    min-height: 84vh;
+    overflow-y: scroll;
+ }
+ 
+ .message {
+    padding: 3px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 70%;
+ }
+ 
+ .message-header {
+    font-size: small;
+    text-align: left;
+ }
+ 
+ .my-message {
+    margin-left: auto;
+    background-color: #e9b8ff;
+ }
+ .others-message {
+    background-color: rgb(255, 243, 135);
+    margin-right: auto;
+ }
+ .send-message {
+    min-height: 5vh;
+ }
+ 
+ .max-height-90 {
+    max-height: 90vh;
+    
+ }
+ 
+ .d-flex {
+    display: flex;
+    
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 10px;
+ }
